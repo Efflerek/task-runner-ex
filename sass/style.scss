@@ -1,0 +1,49 @@
+body {
+ text-align: center;
+ margin: 0;
+}
+
+.navigation ul {
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 36px 0 0;
+    position: relative;  
+}
+
+.navigation li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 36px 0 0;
+    position: relative;
+}
+
+.col-lg-4 {
+    text-align: center;
+    justify-content: center;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
