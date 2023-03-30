@@ -1,3 +1,163 @@
+body {
+ text-align: center;
+ margin: 0;
+}
 
+.splash {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.postimg.cc/R0HDQwHs/man-belts-min.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    padding-top: 7rem;
+}
+
+.row-services {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.row-grey {
+    background-color: #FAFAFA
+}
+
+i {
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid grey;
+  padding: 1.5rem;
+  border-color: #fad000;
+  margin-bottom: 1.5rem;
+}
+
+.page-slogan {
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.page-slogan-undertext {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 1.2rem;
+}
+
+.underheading {
+    font-style: italic;
+}
+
+.btn-warning {
+    margin-top: 1rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.navigation ul {
+    padding: 30px;
+    margin: 0;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 36px 0 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navigation li a:link {
+    text-decoration: none;
+}
+
+.nav-a {
+    position: relative;
+    color: #fff;
+}
+
+.logo img {
+    padding: 20px;
+    position: relative;
+    max-width: 12rem;
+    float: left;
+}
+
+.col-sm-6 .col-lg-4 {
+    text-align: center;
+    justify-content: center;
+}
+
+footer a:link {
+    text-decoration: none;
+}
+
+footer i {
+margin-top: 1.5rem;
+border: none;
+padding: 5px;
+}
+
+.fa-twitter a:link {
+    text-decoration: none;
+    color: #000000
+}
+
+.fa-pinterest a:link {
+    text-decoration: none;
+    color: #000000
+}
+
+.fa-facebook a:link {
+    text-decoration: none;
+    color: #000000
+}
+
+.fa-linkedin a:link {
+    text-decoration: none;
+    color: #000000
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 767px) {
+
+.logo img {
+    max-width: 12rem;
+}
+
+.navigation li {
+    font-size: 0.7rem;
+    margin: 0 10px 0 0;
+}
+
+.page-slogan {
+    font-size: 35px;
+}
+
+.page-slogan-undertext {
+    font-size: 20px;
+}
+}
